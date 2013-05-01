@@ -18,6 +18,9 @@
 		D41BE5211731659A002A92A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D41BE5201731659A002A92A1 /* Default-568h@2x.png */; };
 		D41BE5241731659A002A92A1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41BE5221731659A002A92A1 /* MainStoryboard.storyboard */; };
 		D41BE5271731659A002A92A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41BE5261731659A002A92A1 /* ViewController.m */; };
+		D41BE52E173165E3002A92A1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41BE52D173165E3002A92A1 /* MapKit.framework */; };
+		D41BE53117316965002A92A1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D41BE53017316965002A92A1 /* Reachability.m */; };
+		D41BE533173169A9002A92A1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41BE532173169A9002A92A1 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		D41BE5231731659A002A92A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D41BE5251731659A002A92A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D41BE5261731659A002A92A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D41BE52D173165E3002A92A1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D41BE52F17316965002A92A1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D41BE53017316965002A92A1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D41BE532173169A9002A92A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41BE533173169A9002A92A1 /* SystemConfiguration.framework in Frameworks */,
+				D41BE52E173165E3002A92A1 /* MapKit.framework in Frameworks */,
 				D41BE50B1731659A002A92A1 /* UIKit.framework in Frameworks */,
 				D41BE50D1731659A002A92A1 /* Foundation.framework in Frameworks */,
 				D41BE50F1731659A002A92A1 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +82,8 @@
 		D41BE5091731659A002A92A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D41BE532173169A9002A92A1 /* SystemConfiguration.framework */,
+				D41BE52D173165E3002A92A1 /* MapKit.framework */,
 				D41BE50A1731659A002A92A1 /* UIKit.framework */,
 				D41BE50C1731659A002A92A1 /* Foundation.framework */,
 				D41BE50E1731659A002A92A1 /* CoreGraphics.framework */,
@@ -88,6 +99,8 @@
 				D41BE5221731659A002A92A1 /* MainStoryboard.storyboard */,
 				D41BE5251731659A002A92A1 /* ViewController.h */,
 				D41BE5261731659A002A92A1 /* ViewController.m */,
+				D41BE52F17316965002A92A1 /* Reachability.h */,
+				D41BE53017316965002A92A1 /* Reachability.m */,
 				D41BE5111731659A002A92A1 /* Supporting Files */,
 			);
 			path = MapKitDelegateBug;
@@ -176,6 +189,7 @@
 				D41BE5171731659A002A92A1 /* main.m in Sources */,
 				D41BE51B1731659A002A92A1 /* AppDelegate.m in Sources */,
 				D41BE5271731659A002A92A1 /* ViewController.m in Sources */,
+				D41BE53117316965002A92A1 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
